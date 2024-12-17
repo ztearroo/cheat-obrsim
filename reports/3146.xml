@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="GB2312"?>
+<infos ProcessCount="1" desc="评分细目文件" version="1.0">
+    <base>
+        <学员 姓名="<name>" 用户名="<username>"/>
+        <试卷 百分制得分="100.000" 试卷总分="7.000" 考核项目="金刚石合成:等离子体化学气相沉积"
+              试卷名称="D:\OBE\project\PECVD1\Paper\等离子体化学气相沉积.sc"/>
+        <操作 百分制得分="0.000" 实际得分="0.000" 总分="7.000"/>
+        <质量 百分制得分="0.000" 实际得分="0.000" 总分="0.000"/>
+        <扣分项 百分制得分="0.000" 实际得分="0.000" 总分="0.000"/>
+        <时间 零分时间="-1秒" 扣分标志="-1" 运行时间="0秒"/>
+    </base>
+    <Process index="0" state="0" StepCount="7" desc="样品测试" 操作得分="0.000" 质量得分="0.000" 扣分="0.000">
+        <Step index="0" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            点击放气按钮
+        </Step>
+        <Step index="1" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">打开腔门
+        </Step>
+        <Step index="2" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">放入基底
+        </Step>
+        <Step index="3" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">关闭腔门
+        </Step>
+        <Step index="4" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            点击抽真空按钮
+        </Step>
+        <Step index="5" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            打开CH4气体，打开H2气体
+        </Step>
+        <Step index="6" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            点击加热按钮
+        </Step>
+    </Process>
+</infos>

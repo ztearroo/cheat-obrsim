@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="GB2312"?>
+<infos ProcessCount="8" desc="评分细目文件" version="1.0">
+    <base>
+        <学员 姓名="<name>" 用户名="<username>"/>
+        <试卷 百分制得分="100.000" 试卷总分="128.000"
+              考核项目="扫描电镜-能谱仪3D仿真软件:金刚石的微观形貌观察虚拟仿真实验"
+              试卷名称="D:\OBE\project\SEM_EDS73C\Paper\扫描电镜及X射线能谱仪评分.SC"/>
+        <操作 百分制得分="0.000" 实际得分="0.000" 总分="128.000"/>
+        <质量 百分制得分="0.000" 实际得分="0.000" 总分="0.000"/>
+        <扣分项 百分制得分="0.000" 实际得分="0.000" 总分="0.000"/>
+        <时间 零分时间="-1秒" 扣分标志="-1" 运行时间="36秒"/>
+    </base>
+    <Process index="0" state="1" StepCount="13" desc="样品制备" 操作得分="0.000" 质量得分="0.000" 扣分="0.000">
+        <Step index="0" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            在离心管1中装入待测样品和试剂。
+        </Step>
+        <Step index="1" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            在离心管2中装入铜片和试剂。
+        </Step>
+        <Step index="2" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            将装有离心管的泡沫放入超声仪中。
+        </Step>
+        <Step index="3" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            开启超声仪电源。
+        </Step>
+        <Step index="4" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            点击超声按钮，开始超声。
+        </Step>
+        <Step index="5" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            超声完毕后，关闭超声仪电源。
+        </Step>
+        <Step index="6" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            将离心管从超声仪中取出。
+        </Step>
+        <Step index="7" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            将铜片从离心管2中取出，放在表面皿上。
+        </Step>
+        <Step index="8" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            用一次性滴管将试样滴在铜片上。
+        </Step>
+        <Step index="9" state="1" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            等待试样干燥完全。
+        </Step>
+        <Step index="10" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            在样品台上贴导电胶。
+        </Step>
+        <Step index="11" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            将铜片夹至样品台上。
+        </Step>
+        <Step index="12" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">吹扫试样。
+        </Step>
+    </Process>
+    <Process index="1" state="1" StepCount="5" desc="喷金过程" 操作得分="0.000" 质量得分="0.000" 扣分="0.000">
+        <Step index="0" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">将样品台放入喷金仪内。
+        </Step>
+        <Step index="1" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            开启喷金仪开关。
+        </Step>
+        <Step index="2" state="5" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            第一次抽真空到10以下之后，按下“Start”键。
+        </Step>
+        <Step index="3" state="5" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            喷金结束后，关闭喷金仪电源。
+        </Step>
+        <Step index="4" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            从喷金仪中取出样品台，并固定至样品座。
+        </Step>
+    </Process>
+    <Process index="2" state="1" StepCount="9" desc="实验准备" 操作得分="0.000" 质量得分="0.000" 扣分="0.000">
+        <Step index="0" state="14" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="扣分项">
+            确认稳压电源处于开的状态。
+        </Step>
+        <Step index="1" state="14" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="扣分项">
+            检查真空电源是否开启。
+        </Step>
+        <Step index="2" state="14" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="扣分项">
+            确认主电源开关为开启状态。
+        </Step>
+        <Step index="3" state="14" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="扣分项">
+            检查氮气总压阀是否开启。
+        </Step>
+        <Step index="4" state="14" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="扣分项">
+            检查氮气分压旋钮是否开至0.5左右。
+        </Step>
+        <Step index="5" state="14" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="扣分项">
+            无特殊情况，紧急开关不可开启。
+        </Step>
+        <Step index="6" state="14" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="扣分项">
+            检查循环水是否开启。
+        </Step>
+        <Step index="7" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            打开操作台电源。
+        </Step>
+        <Step index="8" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            开启计算机主机电源。
+        </Step>
+    </Process>
+    <Process index="3" state="1" StepCount="8" desc="加载试样" 操作得分="0.000" 质量得分="0.000" 扣分="0.000">
+        <Step index="0" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            打开SEM工作站。
+        </Step>
+        <Step index="1" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            点击交换室面板上的EXCHPOSN按钮，将样品台处于交换位置。
+        </Step>
+        <Step index="2" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            点击交换室面板上的VENT按钮，破真空。
+        </Step>
+        <Step index="3" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            打开交换室的门。
+        </Step>
+        <Step index="4" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            放入样品座。
+        </Step>
+        <Step index="5" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            放入样品座后，关闭交换室的门。
+        </Step>
+        <Step index="6" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            点击样品交换室上的EVAC按钮，将交换室抽真空。
+        </Step>
+        <Step index="7" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            推动交换杆，载入样品台。
+        </Step>
+    </Process>
+    <Process index="4" state="1" StepCount="24" desc="SEM观察形貌" 操作得分="0.000" 质量得分="0.000" 扣分="0.000">
+        <Step index="0" state="14" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="扣分项">
+            点击真系统控制台上的VENT/EVAC按钮，使之变亮，则扣2分。
+        </Step>
+        <Step index="1" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">在工作站中的“Spec
+            Surface Offset”中选择26mm的holder。
+        </Step>
+        <Step index="2" state="14" BScore="-2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="扣分项">
+            选择12.5mm的holder。
+        </Step>
+        <Step index="3" state="14" BScore="-2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="扣分项">
+            选择MESH的holder。
+        </Step>
+        <Step index="4" state="14" BScore="-2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="扣分项">
+            选择SM-71071（6WH）的holder。
+        </Step>
+        <Step index="5" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            打开Observation ON 按钮。
+        </Step>
+        <Step index="6" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            设置电压、电流、Probe Current等参数，然后按回车确定。
+        </Step>
+        <Step index="7" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            设置WD值，一般在8-10mm。
+        </Step>
+        <Step index="8" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            在工作站中设置观察模式为“LM”，或者点击操作台中的“LOWMAG”按钮。
+        </Step>
+        <Step index="9" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            点击真系统控制台上的GUN按钮，打开GUN。
+        </Step>
+        <Step index="10" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            取消FREEZE状态，确定Scanning Mode在Quick View位置。
+        </Step>
+        <Step index="11" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            滑动鼠轮调节放大倍率。
+        </Step>
+        <Step index="12" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            关闭“LM”低倍模式，开启“SEM”模式，旋动操作台上旋钮，继续放大图像。
+        </Step>
+        <Step index="13" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            按下自动聚焦按钮进行自动聚焦。
+        </Step>
+        <Step index="14" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            再次按下自动聚焦按钮关闭，调节聚焦旋钮进行手动聚焦。
+        </Step>
+        <Step index="15" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">调节亮度。
+        </Step>
+        <Step index="16" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            调节对比度。
+        </Step>
+        <Step index="17" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="一味?最??" Type="操作分">
+            按下WOBB，调节X、Y值，使图像上下左右晃动减小。
+        </Step>
+        <Step index="18" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            继续调节至图像不再晃动。
+        </Step>
+        <Step index="19" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            按下STIG，调节X、Y进行像散调整。
+        </Step>
+        <Step index="20" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            扫描电镜测试得到一清晰图像。
+        </Step>
+        <Step index="21" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            按下Fine按钮。
+        </Step>
+        <Step index="22" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            按下PHOTO键，获取最终图像。
+        </Step>
+        <Step index="23" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">保存图像。
+        </Step>
+    </Process>
+    <Process index="5" state="1" StepCount="7" desc="EDS测试" 操作得分="0.000" 质量得分="0.000" 扣分="0.000">
+        <Step index="0" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            打开EDS工作站。
+        </Step>
+        <Step index="1" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            修改扫描电镜中的参数，加速电压，电流、WD。
+        </Step>
+        <Step index="2" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            填写项目、样品名称以及需要填写的注释等，将电镜中的清晰图像采集到X射线能谱中。
+        </Step>
+        <Step index="3" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            采集设置中，设置活时间，处理时间。
+        </Step>
+        <Step index="4" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            点击采集谱图，选择点分析模式。
+        </Step>
+        <Step index="5" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            EDS中得到一清晰谱图。
+        </Step>
+        <Step index="6" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            确认元素，并定量分析，然后保存报告。
+        </Step>
+    </Process>
+    <Process index="6" state="1" StepCount="7" desc="卸载试样" 操作得分="0.000" 质量得分="0.000" 扣分="0.000">
+        <Step index="0" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            将放大倍率调制最低，点击真空系统控制台上的GUN，关闭GUN。
+        </Step>
+        <Step index="1" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            点击Observation OFF按钮。
+        </Step>
+        <Step index="2" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            点击交换室面板上的EXCHPOSN按钮，将样品台处于交换位置。
+        </Step>
+        <Step index="3" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            推动交换杆，卸载样品座。
+        </Step>
+        <Step index="4" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            点击交换室面板上的VENT按钮，将样品交换室破真空。
+        </Step>
+        <Step index="5" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            打开交换室的门，将样品座拿出。
+        </Step>
+        <Step index="6" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            关闭交换室舱门，点击样品交换室上的EVAC按钮，将交换室抽真空。
+        </Step>
+    </Process>
+    <Process index="7" state="1" StepCount="8" desc="关机" 操作得分="0.000" 质量得分="0.000" 扣分="0.000">
+        <Step index="0" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            退出EDS工作站。
+        </Step>
+        <Step index="1" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            退出SEM工作站。
+        </Step>
+        <Step index="2" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+            关闭操作台电源。
+        </Step>
+        <Step index="3" state="14" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="扣分项">
+            关机时，若关闭稳压电源扣2分。
+        </Step>
+        <Step index="4" state="14" BScore="-2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="扣分项">
+            关机时，若关闭MAIN SW扣2分。
+        </Step>
+        <Step index="5" state="14" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="扣分项">关机时，若关闭VAC
+            SW扣2分。
+        </Step>
+        <Step index="6" state="14" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="扣分项">
+            若氮气总压小于0.4MPa，扣2分。
+        </Step>
+        <Step index="7" state="14" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="扣分项">
+            若输出氮气的压力小于0.4MPa，扣2分。
+        </Step>
+    </Process>
+</infos>
