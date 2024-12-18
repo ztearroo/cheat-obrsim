@@ -59,13 +59,25 @@ config_handler.set_global(
 
 console = Console()
 
-# 获取目录路径
-SCRIPT_DIR = Path(__file__).parent
-REPORTS_DIR = SCRIPT_DIR / "reports"
-LOGS_DIR = SCRIPT_DIR / "logs"
+# 获取程序运行目录
+def get_app_dir():
+    """获取应用程序运行目录"""
+    if getattr(sys, 'frozen', False):
+        return Path(sys.executable).parent
+    return Path(__file__).parent
 
-# 创建日志目录
+# 设置路径
+APP_DIR = get_app_dir()
+REPORTS_DIR = APP_DIR / "reports"
+LOGS_DIR = APP_DIR / "logs"
+
+# 确保日志目录存在
 LOGS_DIR.mkdir(exist_ok=True)
+
+# 验证 reports 目录
+if not REPORTS_DIR.exists():
+    logger.error(f"Reports目录不存在: {REPORTS_DIR}")
+    raise FileNotFoundError(f"请确保reports目录在程序同级目录下")
 
 
 
