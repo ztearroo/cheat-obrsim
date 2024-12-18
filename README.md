@@ -110,7 +110,7 @@ git clone https://github.com/ztearroo/cheat-obrsim.git
 
 ![](/img/img6.png)
 
-6. `config.py`配置完成后，双击`cheat-obrism.exe`开始运行(如果想用python运行可`pip install -r requirements.txt` 并在`cmd`中通过`python main.py`运行)
+6. `config.py`配置完成后，用python运行可`pip install -r requirements.txt` 并在`cmd`中通过`python main.py`运行)
 
 ### 版权说明
 
