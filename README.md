@@ -78,12 +78,13 @@
 
 **目前该项目仅适配[理工科学生虚拟仿真实验](https://www.ilab-x.com/details/page?id=12413&isView=true)的金刚石的合成及物理性能测试虚拟仿真实验**
 
+**项目目前仅适配郑州大学的理工科实验，并且选课请选史新伟老师的，选其他的会导致成绩回传出问题！**
+
 **虽然理论上能实现秒完成实验，但作者并不推荐！！！通过最大程度的模仿真实完成的记录，项目运行总时长大约为1-2小时**
-**！！！请先使用官方的仿真软件启动，测试成绩是否正常回传**
 
 ###### **安装步骤**
 
-1. 克隆仓库或独自下载仓库源代码
+1. 克隆仓库或独自下载仓库源代码（一定要完整下载仓库的源代码，有些文件是必需的）
 
 ```sh
 git clone https://github.com/ztearroo/cheat-obrsim.git
@@ -101,6 +102,12 @@ git clone https://github.com/ztearroo/cheat-obrsim.git
 
 4. 搜索`//当前登录用户id`，点开第一条，复制`themeid`、`userid`和`name`到`config.py`当中
 
+   `themeid`不是`软件唯一id`，若显示`软件唯一id`，则使用`thissimresid`作为`themeid`
+
+   `name`是真实姓名，若上面显示`软件唯一id`，则这里会显示系统用户名，清自行分辨
+
+   `username`是系统用户名
+
 ![](/img/img3.png)
 
 5. 点击网页右上角进入个人中心，将用户名复制到`config.py`中的`username`当中
@@ -111,7 +118,7 @@ git clone https://github.com/ztearroo/cheat-obrsim.git
 
 ![](/img/img6.png)
 
-6. `config.py`配置完成后，用python运行可`pip install -r requirements.txt` 并在`cmd`中通过`python main.py`运行)
+6. `config.py`配置完成后，可将`cheat-obrsim.exe`放在项目根目录，双击运行（如果用python运行如下)
 
 ```cmd
 cd <项目根目录>
