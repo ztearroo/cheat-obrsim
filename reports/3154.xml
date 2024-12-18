@@ -1,61 +1,59 @@
-<?xml version="1.0" encoding="GB2312"?>
+<?xml version='1.0' encoding='GB2312'?>
 <infos ProcessCount="1" desc="评分细目文件" version="1.0">
     <base>
-        <学员 姓名="<name>" 用户名="<username>"/>
-        <试卷 百分制得分="100.000" 试卷总分="32.000" 考核项目="韦氏硬度计仿真软件:金刚石硬度测定"
-              试卷名称="D:\OBE\project\KBKB\Paper\金刚石硬度测定.SC"/>
-        <操作 百分制得分="0.000" 实际得分="0.000" 总分="32.000"/>
-        <质量 百分制得分="0.000" 实际得分="0.000" 总分="0.000"/>
-        <扣分项 百分制得分="0.000" 实际得分="0.000" 总分="0.000"/>
-        <时间 零分时间="-1秒" 扣分标志="-1" 运行时间="0秒"/>
+        <学员 姓名="{name}" 用户名="{username}" />
+        <试卷 百分制得分="100.000" 试卷总分="32.000" 考核项目="韦氏硬度计仿真软件:金刚石硬度测定" 试卷名称="D:\OBE\project\KBKB\Paper\金刚石硬度测定.SC" />
+        <操作 百分制得分="100.000" 实际得分="32.000" 总分="32.000" />
+        <质量 百分制得分="0.000" 实际得分="0.000" 总分="0.000" />
+        <扣分项 百分制得分="0.000" 实际得分="0.000" 总分="0.000" />
+        <时间 零分时间="-1秒" 扣分标志="-1" 运行时间="{run_time}秒" />
     </base>
-    <Process index="0" state="0" StepCount="16" desc="测试流程" 操作得分="0.000" 质量得分="0.000" 扣分="0.000">
-        <Step index="0" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+    <Process index="0" state="1" StepCount="16" desc="测试流程" 操作得分="32.000" 质量得分="0.000" 扣分="0.000">
+        <Step index="0" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             打开仪器开关，开关位于仪器背面下方位置
         </Step>
-        <Step index="1" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="1" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             把实验台上的样品放置到仪器上
         </Step>
-        <Step index="2" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="2" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             点击F1可进入Hardness testing界面，点击F2可进入Test Program界面，点击Menu可回到初始界面
         </Step>
-        <Step index="3" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0"
-              reason="绦?点击F2进入参数编辑界面，或点击F1进入Hardness testing界面；" Type="操作分">
+        <Step index="3" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="绦?点击F2进入参数编辑界面，或点击F1进入Hardness testing界面；" Type="操作分">
             若上一步选择的F1，可继续点击F1进入参数编辑界面，每输入成功以后点击Enter即可；
             若上一步选择的F2，可继续点击F2进入参数编辑界面，或点击F1进入Hardness testing界面；
         </Step>
-        <Step index="4" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="4" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             调节基座上的聚焦按钮，在Hardness testing界面右上方窗口观察直到出现黄色区域
         </Step>
-        <Step index="5" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="5" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             调节亮度旋钮，直至出现白色；尝试调节聚焦和亮度旋钮直至出现清晰图像
         </Step>
-        <Step index="6" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="6" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             点击Start，开始测试
         </Step>
-        <Step index="7" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">点击Enter
+        <Step index="7" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">点击Enter
         </Step>
-        <Step index="8" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="8" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             点击上下按钮，使得第一条线压在黑色斑点的上方尖端位置，然后点击Enter
         </Step>
-        <Step index="9" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="9" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             点击上下按钮，使得第二条线压在黑色斑点的上方尖端位置，然后点击Enter
         </Step>
-        <Step index="10" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="10" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             点击左右按钮，使得第三条线压在黑色斑点的上方尖端位置，然后点击Enter
         </Step>
-        <Step index="11" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="11" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             点击左右按钮，使得第四条线压在黑色斑点的上方尖端位置，然后点击Enter
         </Step>
-        <Step index="12" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="12" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             点击Enter后回到结果显示界面，若对结果不满意，可点击F5后调整结果
         </Step>
-        <Step index="13" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="13" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             测试完毕后，把仪器各部件归位
         </Step>
-        <Step index="14" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">放回样品
+        <Step index="14" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">放回样品
         </Step>
-        <Step index="15" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="15" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             关闭仪器开关
         </Step>
     </Process>

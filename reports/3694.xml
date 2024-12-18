@@ -1,210 +1,209 @@
-<?xml version="1.0" encoding="GB2312"?>
+<?xml version='1.0' encoding='GB2312'?>
 <infos ProcessCount="5" desc="评分细目文件" version="1.0">
     <base>
-        <学员 姓名="<name>" 用户名="<username>"/>
-        <试卷 百分制得分="100.000" 考核项目="X射线光电子能谱仪:金刚石的元素组成及价态"
-              试卷名称="D:\OBE\project\XPS3C\Paper\水泥粉末的元素组成及价态.sc"/>
-        <操作 百分制得分="0.000" 实际得分="0.000" 总分="100.000"/>
-        <质量 百分制得分="0.000" 实际得分="0.000" 总分="0.000"/>
-        <扣分项 百分制得分="0.000" 实际得分="0.000" 总分="0.000"/>
-        <时间 零分时间="-1秒" 扣分标志="-1" 运行时间="35秒"/>
+        <学员 姓名="{name}" 用户名="{username}" />
+        <试卷 百分制得分="100.000" 试卷总分="100.000" 考核项目="X射线光电子能谱仪:金刚石的元素组成及价态" 试卷名称="D:\OBE\project\XPS3C\Paper\水泥粉末的元素组成及价态.sc" />
+        <操作 百分制得分="100.000" 实际得分="100.000" 总分="100.000" />
+        <质量 百分制得分="0.000" 实际得分="0.000" 总分="0.000" />
+        <扣分项 百分制得分="0.000" 实际得分="0.000" 总分="0.000" />
+        <时间 零分时间="-1秒" 扣分标志="-1" 运行时间="{run_time}秒" />
     </base>
-    <Process index="0" state="1" StepCount="1" desc="检查仪器状态" 操作得分="0.000" 质量得分="0.000" 扣分="0.000">
-        <Step index="0" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">打开工作站
+    <Process index="0" state="1" StepCount="1" desc="检查仪器状态" 操作得分="2.000" 质量得分="0.000" 扣分="0.000">
+        <Step index="0" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">打开工作站
         </Step>
     </Process>
-    <Process index="1" state="1" StepCount="25" desc="制样过程" 操作得分="0.000" 质量得分="0.000" 扣分="0.000">
-        <Step index="0" state="1" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">打开干燥器
+    <Process index="1" state="1" StepCount="25" desc="制样过程" 操作得分="30.000" 质量得分="0.000" 扣分="0.000">
+        <Step index="0" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">打开干燥器
         </Step>
-        <Step index="1" state="1" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">取出模具
+        <Step index="1" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">取出模具
         </Step>
-        <Step index="2" state="1" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">取出样品台
+        <Step index="2" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">取出样品台
         </Step>
-        <Step index="3" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="3" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             盖上干燥器盖子
         </Step>
-        <Step index="4" state="1" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">清洗工具
+        <Step index="4" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">清洗工具
         </Step>
-        <Step index="5" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="5" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             往样品台上粘贴双面胶
         </Step>
-        <Step index="6" state="1" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">剪铝箔
+        <Step index="6" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">剪铝箔
         </Step>
-        <Step index="7" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="7" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             往铝箔上粘贴双面胶
         </Step>
-        <Step index="8" state="1" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="8" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             取粉末样品，倾倒于双面胶上
         </Step>
-        <Step index="9" state="1" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">折叠铝箔
+        <Step index="9" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">折叠铝箔
         </Step>
-        <Step index="10" state="1" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="10" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             将铝箔移至模具上
         </Step>
-        <Step index="11" state="1" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="11" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             将模具移至压片机上
         </Step>
-        <Step index="12" state="1" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="12" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             顺时针旋转压片机手轮
         </Step>
-        <Step index="13" state="1" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">拧紧油阀
+        <Step index="13" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">拧紧油阀
         </Step>
-        <Step index="14" state="1" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">安装压杆
+        <Step index="14" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">安装压杆
         </Step>
-        <Step index="15" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="15" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             按压压杆至压力表示数为10MPa左右，保持1min
         </Step>
-        <Step index="16" state="1" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">卸下压杆
+        <Step index="16" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">卸下压杆
         </Step>
-        <Step index="17" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">旋松油阀
+        <Step index="17" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">旋松油阀
         </Step>
-        <Step index="18" state="5" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="18" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             逆时针旋转压片机手轮
         </Step>
-        <Step index="19" state="1" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="19" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             将模具移出压片机
         </Step>
-        <Step index="20" state="1" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="20" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             把铝箔移出模具
         </Step>
-        <Step index="21" state="1" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">拆开铝箔
+        <Step index="21" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">拆开铝箔
         </Step>
-        <Step index="22" state="1" BScore="3.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="22" state="6" BScore="3.000" RScore="3.000" BRole="0" RRole="0" reason="" Type="操作分">
             剪合适尺寸的样品
         </Step>
-        <Step index="23" state="1" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="23" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             把样品粘贴至样品台上
         </Step>
-        <Step index="24" state="1" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">吹扫样品
+        <Step index="24" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">吹扫样品
         </Step>
     </Process>
-    <Process index="2" state="1" StepCount="13" desc="样品安装" 操作得分="0.000" 质量得分="0.000" 扣分="0.000">
-        <Step index="0" state="1" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+    <Process index="2" state="1" StepCount="13" desc="样品安装" 操作得分="21.000" 质量得分="0.000" 扣分="0.000">
+        <Step index="0" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             打开进样室灯
         </Step>
-        <Step index="1" state="1" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="1" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             打开分析室灯
         </Step>
-        <Step index="2" state="1" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">点击Vent
+        <Step index="2" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">点击Vent
             Entry Lock，等待进样室破真空至常压
         </Step>
-        <Step index="3" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="3" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             打开进样室腔门
         </Step>
-        <Step index="4" state="1" BScore="3.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">安装样品台
+        <Step index="4" state="6" BScore="3.000" RScore="3.000" BRole="0" RRole="0" reason="" Type="操作分">安装样品台
         </Step>
-        <Step index="5" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="5" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             关闭进样室腔门
         </Step>
-        <Step index="6" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">点击Pump
+        <Step index="6" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">点击Pump
             Down Entry Lock，等待进样室抽真空
         </Step>
-        <Step index="7" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">点击Open
+        <Step index="7" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">点击Open
             Gate Valve V1，开V1门
         </Step>
-        <Step index="8" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="8" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             将送样杆往前推至底
         </Step>
-        <Step index="9" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="9" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             逆时针旋转送样杆90°
         </Step>
-        <Step index="10" state="1" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="10" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             将送样杆往回拉至底
         </Step>
-        <Step index="11" state="1" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="11" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             送样杆顺时针旋转90°
         </Step>
-        <Step index="12" state="1" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">点击Close
+        <Step index="12" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">点击Close
             Gate Valve V1，关V1门
         </Step>
     </Process>
-    <Process index="3" state="1" StepCount="11" desc="测试过程" 操作得分="0.000" 质量得分="0.000" 扣分="0.000">
-        <Step index="0" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">新建实验
+    <Process index="3" state="1" StepCount="11" desc="测试过程" 操作得分="18.000" 质量得分="0.000" 扣分="0.000">
+        <Step index="0" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">新建实验
         </Step>
-        <Step index="1" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">点击X-Ray
+        <Step index="1" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">点击X-Ray
             Gun选择X射线光源
         </Step>
-        <Step index="2" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="2" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             点击Point建立实验点
         </Step>
-        <Step index="3" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="3" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             点击Z调焦距
         </Step>
-        <Step index="4" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="4" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             点击自动较高
         </Step>
-        <Step index="5" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="5" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             点击read读取
         </Step>
-        <Step index="6" state="1" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="6" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             点击Apply应用
         </Step>
-        <Step index="7" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="7" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             点击Spectrum添加图谱
         </Step>
-        <Step index="8" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="8" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             选待测元素C、O，点击OK确认
         </Step>
-        <Step index="9" state="1" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">点击turn
+        <Step index="9" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">点击turn
             on打开中和枪
         </Step>
-        <Step index="10" state="5" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="10" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             点击开始测试，等待测试完成
         </Step>
     </Process>
-    <Process index="4" state="1" StepCount="18" desc="实验结束" 操作得分="0.000" 质量得分="0.000" 扣分="0.000">
-        <Step index="0" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">测试完毕，点击Gun
+    <Process index="4" state="1" StepCount="18" desc="实验结束" 操作得分="29.000" 质量得分="0.000" 扣分="0.000">
+        <Step index="0" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">测试完毕，点击Gun
             shut down选择关闭X射线源
         </Step>
-        <Step index="1" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">选中Gun
+        <Step index="1" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">选中Gun
             Shutdown，点击开始按钮，关闭中和枪和X射线源
         </Step>
-        <Step index="2" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">点击move
+        <Step index="2" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">点击move
             stage to transfer position将样品台初始化
         </Step>
-        <Step index="3" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">点击Open
+        <Step index="3" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">点击Open
             Gate Valve V1，开V1门
         </Step>
-        <Step index="4" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="4" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             将送样杆把手往前推至底
         </Step>
-        <Step index="5" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="5" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             往回拉送样杆至底
         </Step>
-        <Step index="6" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">点击Closed
+        <Step index="6" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">点击Closed
             Gate Valve V1，关V1门
         </Step>
-        <Step index="7" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">点击Vent
+        <Step index="7" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">点击Vent
             Entry Lock，进样室破真空至常压
         </Step>
-        <Step index="8" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="8" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             打开进样室腔门
         </Step>
-        <Step index="9" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="9" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             逆时针旋转送样杆90°
         </Step>
-        <Step index="10" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="10" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             卸载样品台
         </Step>
-        <Step index="11" state="1" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="11" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             送样杆顺时针旋转90°
         </Step>
-        <Step index="12" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="12" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             关闭进样室腔门
         </Step>
-        <Step index="13" state="1" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">点击Pump
+        <Step index="13" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">点击Pump
             Down Entry Lock，进样室抽真空
         </Step>
-        <Step index="14" state="1" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="14" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             点击保存整个实验
         </Step>
-        <Step index="15" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="15" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             关闭分析室灯
         </Step>
-        <Step index="16" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="16" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             关闭进样室灯
         </Step>
-        <Step index="17" state="1" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="17" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             清除样品台上的样品，放回工具
         </Step>
     </Process>

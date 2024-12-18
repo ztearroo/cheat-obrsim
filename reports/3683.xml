@@ -1,135 +1,134 @@
-<?xml version="1.0" encoding="GB2312"?>
+<?xml version='1.0' encoding='GB2312'?>
 <infos ProcessCount="5" desc="评分细目文件" version="1.0">
     <base>
-        <学员 姓名="<name>" 用户名="<username>"/>
-        <试卷 百分制得分="100.000" 考核项目="X射线衍射仪:金刚石X射线衍射测试"
-              试卷名称="D:\OBE\project\XRDBK3DB\Paper\金刚石X射线衍射测试.sc"/>
-        <操作 百分制得分="0.000" 实际得分="0.000" 总分="68.000"/>
-        <质量 百分制得分="0.000" 实际得分="0.000" 总分="10.000"/>
-        <扣分项 百分制得分="0.000" 实际得分="0.000" 总分="0.000"/>
-        <时间 零分时间="-1秒" 扣分标志="-1" 运行时间="0秒"/>
+        <学员 姓名="{name}" 用户名="{username}" />
+        <试卷 百分制得分="100.000" 试卷总分="78.000" 考核项目="X射线衍射仪:金刚石X射线衍射测试" 试卷名称="D:\OBE\project\XRDBK3DB\Paper\金刚石X射线衍射测试.sc" />
+        <操作 百分制得分="87.179" 实际得分="68.000" 总分="68.000" />
+        <质量 百分制得分="12.821" 实际得分="10.000" 总分="10.000" />
+        <扣分项 百分制得分="0.000" 实际得分="0.000" 总分="-15.000" />
+        <时间 零分时间="-1秒" 扣分标志="-1" 运行时间="{run_time}秒" />
     </base>
-    <Process index="0" state="0" StepCount="8" desc="实验准备" 操作得分="0.000" 质量得分="0.000" 扣分="0.000">
-        <Step index="0" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+    <Process index="0" state="1" StepCount="8" desc="实验准备" 操作得分="16.000" 质量得分="0.000" 扣分="0.000">
+        <Step index="0" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             打开冷却循环水系统电源开关，水温及水压逐渐变到合适的值。
         </Step>
-        <Step index="1" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="1" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             将总电源开关旋至“I”，在开启总电源前确认紧急按钮处于弹起状态。
         </Step>
-        <Step index="2" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="2" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             按下绿色开机按钮，仪器开始自检，至高压按钮显示I。
         </Step>
-        <Step index="3" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">高压按钮显示
+        <Step index="3" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">高压按钮显示
             I 时，按下该按钮，显示黄色辐射标志，仪器高压开启。
         </Step>
-        <Step index="4" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="4" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             打开电脑主机电源。
         </Step>
-        <Step index="5" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="5" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             右击空样品片，点击“放入样品”。
         </Step>
-        <Step index="6" state="5" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="6" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             右击样品片，点击“压平样品”。
         </Step>
-        <Step index="7" state="5" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="7" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             将装好样品的样品片安装至样品座。
         </Step>
     </Process>
-    <Process index="1" state="0" StepCount="17" desc="进样分析" 操作得分="0.000" 质量得分="0.000" 扣分="0.000">
-        <Step index="0" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+    <Process index="1" state="1" StepCount="17" desc="进样分析" 操作得分="34.000" 质量得分="0.000" 扣分="0.000">
+        <Step index="0" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             单击电脑桌面上的工作站图标，将工作站打开。
         </Step>
-        <Step index="1" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="1" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             按下X射线衍射仪舱门门禁按钮。
         </Step>
-        <Step index="2" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="2" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             鼠标指向仪器门把手处，单击将门打开。
         </Step>
-        <Step index="3" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="3" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             将样品座安装至仪器样品台上。
         </Step>
-        <Step index="4" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="4" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             关上仪器门。
         </Step>
-        <Step index="5" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="5" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             在COMMANDER界面，初始化各马达。
         </Step>
-        <Step index="6" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">切换至工作站界面，在DA
+        <Step index="6" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">切换至工作站界面，在DA
             VINCI页面设置初级发散狭缝数值，按Enter键确认。
         </Step>
-        <Step index="7" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">在DA
+        <Step index="7" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">在DA
             VINCI页面设置二级发散狭缝数值，按Enter键确认。
         </Step>
-        <Step index="8" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">在DA
+        <Step index="8" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">在DA
             VINCI页面设置梭拉狭缝角度，按Enter键确认。
         </Step>
-        <Step index="9" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">在DA
+        <Step index="9" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">在DA
             VINCI页面设置梭拉狭缝角度，按Enter键确认。
         </Step>
-        <Step index="10" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="10" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             设置电压40KV，电流40mA，然后点击“Set”执行。
         </Step>
-        <Step index="11" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="11" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             打开Shutter。
         </Step>
-        <Step index="12" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="12" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             选择探测器型号。
         </Step>
-        <Step index="13" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="13" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             设置每步的扫描时间Time值，按Enter键确认。
         </Step>
-        <Step index="14" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="14" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             设置起始扫描角度，扫描步长，按Enter键确认。
         </Step>
-        <Step index="15" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="15" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             点击start开始测试。
         </Step>
-        <Step index="16" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="16" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             测试完成后，点击保存按钮，选择保存路径，填写保存文件名。
         </Step>
     </Process>
-    <Process index="2" state="0" StepCount="9" desc="实验结束" 操作得分="0.000" 质量得分="0.000" 扣分="0.000">
-        <Step index="0" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+    <Process index="2" state="1" StepCount="9" desc="实验结束" 操作得分="18.000" 质量得分="0.000" 扣分="0.000">
+        <Step index="0" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             将X射线衍射仪的门打开。
         </Step>
-        <Step index="1" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="1" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             将样品座取下。
         </Step>
-        <Step index="2" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="2" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             关闭X射线衍射仪的门。
         </Step>
-        <Step index="3" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="3" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             关闭XRD工作站。
         </Step>
-        <Step index="4" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="4" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             按下高压按钮，关闭高压，显示I。
         </Step>
-        <Step index="5" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="5" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             按下关机按钮。
         </Step>
-        <Step index="6" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="6" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             将总电源旋钮旋转至0的位置，关闭仪器总电源。
         </Step>
-        <Step index="7" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="7" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             关闭冷却循环水系统的开关。
         </Step>
-        <Step index="8" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="8" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             关闭计算机。
         </Step>
     </Process>
-    <Process index="3" state="0" StepCount="2" desc="扣分项" 操作得分="0.000" 质量得分="0.000" 扣分="0.000">
-        <Step index="0" state="12" BScore="10.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="扣分项">
+    <Process index="3" state="1" StepCount="2" desc="扣分项" 操作得分="0.000" 质量得分="0.000" 扣分="0.000">
+        <Step index="0" state="14" BScore="10.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="扣分项">
             点击紧急按钮开关，会对仪器造成不可逆损伤
         </Step>
-        <Step index="1" state="12" BScore="5.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="扣分项">
+        <Step index="1" state="14" BScore="5.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="扣分项">
             舱内有X射线开门扣分
         </Step>
     </Process>
-    <Process index="4" state="0" StepCount="2" desc="综合评价" 操作得分="0.000" 质量得分="0.000" 扣分="0.000">
-        <Step index="0" state="8" BScore="5.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="质量分">
+    <Process index="4" state="1" StepCount="2" desc="综合评价" 操作得分="0.000" 质量得分="10.000" 扣分="0.000">
+        <Step index="0" state="11" BScore="5.000" RScore="5.000" BRole="0" RRole="0" reason="题目终止条件满足" Type="质量分">
             设置电压40KV，电流40mA，然后点击“Set”执行。
         </Step>
-        <Step index="1" state="8" BScore="5.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="质量分">
+        <Step index="1" state="11" BScore="5.000" RScore="5.000" BRole="0" RRole="0" reason="题目终止条件满足" Type="质量分">
             设置电压40KV，电流40mA，然后点击“Set”执行。
         </Step>
     </Process>

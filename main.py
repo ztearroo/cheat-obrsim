@@ -189,9 +189,9 @@ def stop_experiment(record_id, minutes, item_id):
         with open(report_path, 'r', encoding='GB2312') as f:
             report_content = f.read()
 
-        report_content = report_content.replace("<name>", config.name)
-        report_content = report_content.replace("<username>", config.username)
-
+        report_content = report_content.replace("{name}", config.name)
+        report_content = report_content.replace("{username}", config.username)
+        report_content = report_content.replace("{run_time}", str(minutes))
         data = {
             "report": urllib.parse.unquote(report_content)
         }

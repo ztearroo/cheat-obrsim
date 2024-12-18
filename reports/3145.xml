@@ -1,155 +1,154 @@
-<?xml version="1.0" encoding="GB2312"?>
+<?xml version='1.0' encoding='GB2312'?>
 <infos ProcessCount="3" desc="评分细目文件" version="1.0">
     <base>
-        <学员 姓名="<name>" 用户名="<username>"/>
-        <试卷 百分制得分="100.000" 试卷总分="48.000" 考核项目="激光导热仪:金刚石导热性能测试"
-              试卷名称="D:\OBE\project\LFA\Paper\金刚石导热性能测试.SC"/>
-        <操作 百分制得分="0.000" 实际得分="0.000" 总分="48.000"/>
-        <质量 百分制得分="0.000" 实际得分="0.000" 总分="0.000"/>
-        <扣分项 百分制得分="0.000" 实际得分="0.000" 总分="0.000"/>
-        <时间 零分时间="-1秒" 扣分标志="-1" 运行时间="0秒"/>
+        <学员 姓名="{name}" 用户名="{username}"/>
+        <试卷 百分制得分="100.000" 试卷总分="48.000" 考核项目="激光导热仪:金刚石导热性能测试" 试卷名称="D:\OBE\project\LFA\Paper\金刚石导热性能测试.SC" />
+        <操作 百分制得分="100.000" 实际得分="48.000" 总分="48.000" />
+        <质量 百分制得分="0.000" 实际得分="0.000" 总分="0.000" />
+        <扣分项 百分制得分="0.000" 实际得分="0.000" 总分="0.000" />
+        <时间 零分时间="-1秒" 扣分标志="-1" 运行时间="{run_time}秒" />
     </base>
-    <Process index="0" state="0" StepCount="14" desc="实验准备" 操作得分="0.000" 质量得分="0.000" 扣分="0.000">
-        <Step index="0" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">打开电脑
+    <Process index="0" state="1" StepCount="14" desc="实验准备" 操作得分="14.000" 质量得分="0.000" 扣分="0.000">
+        <Step index="0" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">打开电脑
         </Step>
-        <Step index="1" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">打开工作站
+        <Step index="1" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">打开工作站
         </Step>
-        <Step index="2" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="2" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             打开仪器主机开关
         </Step>
-        <Step index="3" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="3" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             打开水箱开关
         </Step>
-        <Step index="4" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="4" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             打开温度控制器开关
         </Step>
-        <Step index="5" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="5" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             在温度控制器面板上，点击T，设置温度为22.00℃
         </Step>
-        <Step index="6" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="6" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             打开氩气总压阀
         </Step>
-        <Step index="7" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="7" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             调节分压阀旋钮，至压力为0.04MPa
         </Step>
-        <Step index="8" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="8" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             取下白色塞子
         </Step>
-        <Step index="9" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">安装漏斗
+        <Step index="9" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">安装漏斗
         </Step>
-        <Step index="10" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="10" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             倾倒液氮至保温杯中
         </Step>
-        <Step index="11" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">加液氮
+        <Step index="11" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">加液氮
         </Step>
-        <Step index="12" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="12" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             加液氮完毕，取出漏斗
         </Step>
-        <Step index="13" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="13" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             重新塞上塞子
         </Step>
     </Process>
-    <Process index="1" state="0" StepCount="19" desc="样品测试" 操作得分="0.000" 质量得分="0.000" 扣分="0.000">
-        <Step index="0" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+    <Process index="1" state="1" StepCount="19" desc="样品测试" 操作得分="19.000" 质量得分="0.000" 扣分="0.000">
+        <Step index="0" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             取出样品，放在白纸上
         </Step>
-        <Step index="1" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="1" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             往样品上喷石墨
         </Step>
-        <Step index="2" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="2" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             同时按住open+safety键，使检测器单元移至后终止位置
         </Step>
-        <Step index="3" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="3" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             用工具扳手卸载齿轮
         </Step>
-        <Step index="4" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="4" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             把样品放入到样品托盘内
         </Step>
-        <Step index="5" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="5" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             用配套的镊子把样品托盘放置炉体孔中
         </Step>
-        <Step index="6" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="6" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             用配套的镊子把样品塞放入炉体孔内
         </Step>
-        <Step index="7" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="7" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             用工具扳手安装齿轮
         </Step>
-        <Step index="8" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="8" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             同时按住close+safety键，使检测器单元移至前终止位置
         </Step>
-        <Step index="9" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">新建数据库
+        <Step index="9" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">新建数据库
         </Step>
-        <Step index="10" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="10" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             点击新测量图标，打开测量设定窗口
         </Step>
-        <Step index="11" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="11" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             在常规界面，输入样品编号
         </Step>
-        <Step index="12" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="12" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             在炉体界面，按住鼠标左键，拖动所用的样品托盘类型到窗口左侧合适的样品位
         </Step>
-        <Step index="13" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="13" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             在样品界面，选中样品，输入样品名称、厚度、选择测试模板和涂层类型
         </Step>
-        <Step index="14" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="14" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             在温度程序界面，输入起始温度、终止温度、温度间隔，点击创建按钮
         </Step>
-        <Step index="15" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="15" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             在P2和Pg处，设置Ar流量
         </Step>
-        <Step index="16" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="16" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             设置完毕，点击完成按钮
         </Step>
-        <Step index="17" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="17" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             选中测试样品，点击闪射
         </Step>
-        <Step index="18" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="18" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             点击开始测量图标，等待测试完成
         </Step>
     </Process>
-    <Process index="2" state="0" StepCount="15" desc="实验结束" 操作得分="0.000" 质量得分="0.000" 扣分="0.000">
-        <Step index="0" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+    <Process index="2" state="1" StepCount="15" desc="实验结束" 操作得分="15.000" 质量得分="0.000" 扣分="0.000">
+        <Step index="0" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             同时按住open+safety键，使检测器单元移至后终止位置
         </Step>
-        <Step index="1" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="1" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             用工具扳手卸载齿轮
         </Step>
-        <Step index="2" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="2" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             用配套的镊子把样品塞取出
         </Step>
-        <Step index="3" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="3" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             用配套的镊子把样品托盘取出
         </Step>
-        <Step index="4" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="4" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             用工具扳手安装齿轮
         </Step>
-        <Step index="5" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="5" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             同时按住close+safety键，使检测器单元移至前终止位置
         </Step>
-        <Step index="6" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="6" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             把样品托盘内取出样品
         </Step>
-        <Step index="7" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">把样品放回
+        <Step index="7" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">把样品放回
         </Step>
-        <Step index="8" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="8" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             关闭氩气分压阀
         </Step>
-        <Step index="9" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="9" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             关闭氩气总压阀
         </Step>
-        <Step index="10" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="10" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             关闭温度控制器开关
         </Step>
-        <Step index="11" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="11" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             关闭水箱开关
         </Step>
-        <Step index="12" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="12" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             关闭仪器主机开关
         </Step>
-        <Step index="13" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="13" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             关闭工作站
         </Step>
-        <Step index="14" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">关闭电脑
+        <Step index="14" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">关闭电脑
         </Step>
     </Process>
 </infos>

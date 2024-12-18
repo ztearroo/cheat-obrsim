@@ -1,61 +1,59 @@
-<?xml version="1.0" encoding="GB2312"?>
+<?xml version='1.0' encoding='GB2312'?>
 <infos ProcessCount="1" desc="评分细目文件" version="1.0">
     <base>
-        <学员 姓名="<name>" 用户名="<username>"/>
-        <试卷 百分制得分="100.000" 试卷总分="26.000"
-              考核项目="金刚石的透射率测试虚拟仿真实验:金刚石的透射率测试虚拟仿真实验"
-              试卷名称="D:\OBE\project\UVjgs\Paper\金刚石透射率测定.SC"/>
-        <操作 百分制得分="0.000" 实际得分="0.000" 总分="26.000"/>
-        <质量 百分制得分="0.000" 实际得分="0.000" 总分="0.000"/>
-        <扣分项 百分制得分="0.000" 实际得分="0.000" 总分="0.000"/>
-        <时间 零分时间="-1秒" 扣分标志="-1" 运行时间="32秒"/>
+        <学员 姓名="{name}" 用户名="{username}" />
+        <试卷 百分制得分="100.000" 试卷总分="26.000" 考核项目="金刚石的透射率测试虚拟仿真实验:金刚石的透射率测试虚拟仿真实验" 试卷名称="D:\OBE\project\UVjgs\Paper\金刚石透射率测定.SC" />
+        <操作 百分制得分="100.000" 实际得分="26.000" 总分="26.000" />
+        <质量 百分制得分="0.000" 实际得分="0.000" 总分="0.000" />
+        <扣分项 百分制得分="0.000" 实际得分="0.000" 总分="0.000" />
+        <时间 零分时间="-1秒" 扣分标志="-1" 运行时间="{run_time}秒" />
     </base>
-    <Process index="0" state="1" StepCount="16" desc="开始实验" 操作得分="0.000" 质量得分="0.000" 扣分="0.000">
-        <Step index="0" state="1" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+    <Process index="0" state="1" StepCount="16" desc="开始实验" 操作得分="26.000" 质量得分="0.000" 扣分="0.000">
+        <Step index="0" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             刷仪器识别卡
         </Step>
-        <Step index="1" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="1" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             打开仪器主机电源
         </Step>
-        <Step index="2" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="2" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             打开电脑电源
         </Step>
-        <Step index="3" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">打开工作站
+        <Step index="3" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">打开工作站
         </Step>
-        <Step index="4" state="1" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="4" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             打开样品室盖
         </Step>
-        <Step index="5" state="5" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="5" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             将参比1放入样品池
         </Step>
-        <Step index="6" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="6" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             将参比2放入样品池
         </Step>
-        <Step index="7" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="7" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             关闭样品室门
         </Step>
-        <Step index="8" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="8" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             选择全波长扫描
         </Step>
-        <Step index="9" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="9" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             编辑扫描参数，完成后，点击Baseline
         </Step>
-        <Step index="10" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="10" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             扫描完成后，取出参比1，将未知样放入样品池
         </Step>
-        <Step index="11" state="1" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="11" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             点击Scan，对未知样进行扫描
         </Step>
-        <Step index="12" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="12" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             关闭工作站
         </Step>
-        <Step index="13" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="13" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             关闭紫外-可见光谱仪
         </Step>
-        <Step index="14" state="0" BScore="2.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="14" state="6" BScore="2.000" RScore="2.000" BRole="0" RRole="0" reason="" Type="操作分">
             关电脑电源
         </Step>
-        <Step index="15" state="0" BScore="1.000" RScore="0.000" BRole="0" RRole="0" reason="" Type="操作分">
+        <Step index="15" state="6" BScore="1.000" RScore="1.000" BRole="0" RRole="0" reason="" Type="操作分">
             取下识别卡
         </Step>
     </Process>
