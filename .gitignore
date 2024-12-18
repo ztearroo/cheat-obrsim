@@ -60,42 +60,6 @@ pipenv/
 .env.local
 .env.*.local
 
-# 日志和数据文件
-*.log
-logs/
-log/
-*.sqlite
-*.db
-*.hdf5
-*.h5
-*.csv
-*.json
-*.xlsx
-*.xls
-*.pkl
-*.pickle
-
-# 操作系统
-.DS_Store
-Thumbs.db
-ehthumbs.db
-Desktop.ini
-$RECYCLE.BIN/
-*.lnk
-._*
-.Spotlight-V100
-.Trashes
-
-# 临时文件
-*.tmp
-*.temp
-*.bak
-*.swp
-*~
-.~*
-*.old
-tmp/
-temp/
 
 # 编译文件
 *.pyc
