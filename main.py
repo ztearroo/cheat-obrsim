@@ -265,7 +265,7 @@ def main():
                     bar()
 
             # 停止实验
-            stop_experiment(record_id, info['total_time'] // 60, info['id'])
+            stop_experiment(record_id, info['total_time'], info['id'])
 
             # 休息时间（带进度条）
             if info['sleep_time'] > 0:

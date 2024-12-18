@@ -104,3 +104,5 @@ coverage.xml
 .pytest_cache/
 
 reports/change.py
+logs/*
+!logs/.gitkeep
