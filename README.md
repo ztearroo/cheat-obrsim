@@ -112,6 +112,17 @@ git clone https://github.com/ztearroo/cheat-obrsim.git
 
 6. `config.py`配置完成后，用python运行可`pip install -r requirements.txt` 并在`cmd`中通过`python main.py`运行)
 
+```cmd
+cd <项目根目录>
+
+# 安装太慢可用清华源加速
+pip install -r requirements.txt
+
+python main.py
+```
+
+
+
 ### 版权说明
 
 该项目签署了MIT 授权许可，详情请参阅 [LICENSE.txt](https://github.com/ztearroo/cheat-obrsim/blob/master/LICENSE.txt)
