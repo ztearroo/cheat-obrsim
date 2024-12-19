@@ -169,7 +169,7 @@ def start_experiment(item_id):
 
 
 def stop_experiment(record_id, minutes, item_id):
-    logger.info(f"停止实验 记录ID: {record_id}, 用时: {minutes}分钟")
+    logger.info(f"停止实验 记录ID: {record_id}, 用时: {minutes}秒")
     url = "http://www.obrsim.com/server/stop.do"
     params = {
         "studyrecordAutoid": record_id,
