@@ -137,7 +137,7 @@ python main.py
 
 
 <!-- links -->
-[https://github.com/ztearroo/cheat-obrsim]:ztearroo/cheat-obrsim
+[https://github.com/ztearroo/cheat-obrsim/blob/main/LICENSE]:ztearroo/cheat-obrsim
 [contributors-shield]: https://img.shields.io/github/contributors/ztearroo/cheat-obrsim.svg?style=flat-square
 [contributors-url]: https://github.com/ztearroo/cheat-obrsim/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/ztearroo/cheat-obrsim.svg?style=flat-square
